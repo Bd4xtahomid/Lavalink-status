@@ -7,19 +7,19 @@ module.exports = {
 
   nodes: [
     {
-      host: "your-lavalink-host.com", // Your lavalink host address 
-      password: "your-password", // Your lavalink password
-      port: 2333, // Your lavalink port
-      identifier: "Node", // Name for your lavalink
+      host: "78.46.65.243", // Your lavalink host address 
+      password: "youshallnotpass", // Your lavalink password
+      port: 4626, // Your lavalink port
+      identifier: "Main Node", // Name for your lavalink
       secure: false, // set to true if your lavalink has SSL
       reconnectTimeout: 300000,
       reconnectTries: 100,
     },
     {
-      host: "",  
-      password: "", 
-      port: 0, 
-      identifier: "",
+      host: "lavalink.jirayu.net",  
+      password: "youshallnotpass", 
+      port: 13591,
+      identifier: "Backup Node",
       secure: false,
       reconnectTimeout: 300000,
       reconnectTries: 100,
