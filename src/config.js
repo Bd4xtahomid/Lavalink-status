@@ -15,14 +15,5 @@ module.exports = {
       reconnectTimeout: 300000,
       reconnectTries: 100,
     },
-    {
-      host: "lavalink.jirayu.net",  
-      password: "youshallnotpass", 
-      port: 13591,
-      identifier: "Backup Node",
-      secure: false,
-      reconnectTimeout: 300000,
-      reconnectTries: 100,
-    },
   ],
 };
